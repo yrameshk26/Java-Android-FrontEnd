@@ -1,0 +1,17 @@
+.myContent {
+-moz-column-count: 3;
+-webkit-column-count: 3;
+column-count: 3;
+-moz-column-rule:3px solid green;
+-webkit-column-rule:3px solid green;
+column-rule:3px solid green;
+-moz-hyphens: auto;
+-webkit-hyphens: auto;
+-ms-hyphens: auto;
+hyphens: auto;
+text-align: justify;
+padding: 10px 10px;
+border:2px solid black;
+height:300px;
+overflow:scroll;
+}

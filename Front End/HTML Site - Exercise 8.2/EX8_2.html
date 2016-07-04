@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Lesson 8 EX 8.2</title>
+
+	</head>
+	<body> 	
+		<h1 id="price">The New Price goes Here! </h1>
+		<h1 id="price2">The New Price goes Here! </h1>
+		<h2> Hello 1 </h2>
+		<h2> Hello 2 </h2>
+		<h2> Hello 3 </h2>
+
+		<form>
+			FirstName: <input name="firstname" type="text" value="surttttttt"> Hello 1 </h3>
+			<h3 name="t2"> Hello 2 </h3>
+			<h3> Hello 3 </h3>
+		</form>
+
+		<script>
+			var price = 10;
+			var newPercent = 0.8;
+			var newPrice;
+			var SurText = "Surprise!";
+			var newText = "Testing";
+			newPrice = price * newPercent;
+			document.getElementById('price').innerHTML = newPrice;		
+			document.getElementsByTagName('h2')[1].innerHTML = SurText;
+			document.getElementsByName('firstname') = newText;
+		</script>
+    </body>
+</html>

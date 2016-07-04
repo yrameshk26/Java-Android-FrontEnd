@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(150, 75, 50, 0.2 * Math.PI, 1.8 * Math.PI);
+ctx.fillStyle = "#ffcf10";
+ctx.fill();
+ctx.strokeStyle = "red";
+ctx.stroke();
+
+
+ctx.beginPath();
+ctx.moveTo(191,46);
+ctx.lineTo(150,75);
+ctx.lineTo(191,105);
+ctx.fillStyle = "white";
+ctx.fill();
+ctx.strokeStyle = "red";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(160,45,7,0,2 * Math.PI);
+ctx.fillStyle = "black";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(210,75,7,0,2 * Math.PI);
+ctx.fillStyle = "#ffcf10";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(190,75,7,0,2 * Math.PI);
+ctx.fillStyle = "#ffcf10";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(230,75,7,0,2 * Math.PI);
+ctx.fillStyle = "#ffcf10";
+ctx.fill();
+
+
+ctx.beginPath();
+ctx.arc(250,75,7,0,2 * Math.PI);
+ctx.fillStyle = "#ffcf10";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(270,75,7,0,2 * Math.PI);
+ctx.fillStyle = "#ffcf10";
+ctx.fill();
+
+
+ctx.beginPath();
+ctx.moveTo(110,45);
+ctx.lineTo(110,25);
+ctx.lineTo(145,45);
+ctx.lineTo(145,25);
+ctx.lineTo(110,45);
+ctx.fillStyle = "red";
+ctx.fill();
+
+
+</script> 
+
+</body>
+</html>

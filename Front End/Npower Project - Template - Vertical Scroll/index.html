@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html >
+
+  <head>
+                                                            <!-- Defines Head Tag -->
+      <meta charset="UTF-8">                                          <!-- Universal Charactor Encoding -->
+      <title>Ramesh Portfolio</title>                                 <!-- Defines the Tab Name -->
+      <link rel="stylesheet" href="css/style.css" type="text/css">    <!-- Connects CSS Style Sheet -->
+
+      <script src="js/jquery.min.js"></script>
+      <script type="text/javascript">
+        $(function() {
+          $('.menu-item-back[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html, body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+      </script>
+
+  </head>
+
+
+  <body>                                                              <!-- Defines Body Tag -->
+
+    <section id="navPage">                                            <!-- Defines Section Semantic Element Tag -->
+
+      <article id="naviMenu">                                         <!-- Navigation Menu Comes Here -->
+        <ul id="menu">                                                <!-- Defines Unordered List to make Navigation Elements  -->
+          <a class="menu-button icon-menu" href="#menu" title="Show navigation"></a>        <!-- Menu Expansion -->
+          <a class="menu-button icon-minus" href="#" title="Hide navigation"></a>           <!-- Hide Menu -->
+          <li class="menu-item"><a class="menu-item-back" href="#interestsPage"></a></li>   <!-- Interests Menu -->
+          <li class="menu-item"><a class="menu-item-back" href="#contactMePage"></a></li>   <!-- Contact Me Menu -->
+          <li class="menu-item"><a class="menu-item-back" href="#skillsPage"></a></li>      <!-- Skills Menu -->
+          <li class="menu-item"><a class="menu-item-back" href="#portfolioPage"></a></li>   <!-- Portfolio Menu -->
+          <li class="menu-item"><a class="menu-item-back" href="#homePage"></a></li>        <!-- Home Menu -->
+          <li class="menu-item"><a class="menu-item-back" href="#aboutMePage"></a></li>     <!-- About Me Menu -->
+        </ul>
+      </article>
+
+      <article id="IndexPortText">                                    <!-- First Page Initial Text Section -->
+        Ramesh's Digital Portfolio
+      </article>
+
+    </section>
+
+
+
+      <section id="homePage">                                         <!-- Home Page Section -->
+          <article id="homePageA">Coming Soon</article>
+      </section>
+
+
+      <section id="aboutMePage">                                      <!-- About Me Page Section -->
+          <article id="aboutMePageA">Coming Soon</article>
+      </section>
+
+
+      <section id="portfolioPage">                                    <!-- Portfolio Page Section -->
+          <article id="portfolioPageA">Coming Soon</article>
+      </section>
+
+
+      <section id="interestsPage">                                    <!-- Interests Page Section -->
+          <article id="interestsPageA">Coming Soon</article>
+      </section>
+
+
+      <section id="skillsPage">                                       <!-- Skills Page Section -->
+          <article id="skillsPageA">Coming Soon</article>
+      </section>
+
+
+      <section id="contactMePage">                                    <!-- Contact Me Page Section-->
+          <article id="contactMePageA">Coming Soon</article>
+      </section>
+
+
+      <footer id="IndexFooter">                                      <!-- Fixed Footer Text -->
+          &copy;yrameshk - All Rights Reserved. - Website Created By Ramesh
+      </footer>
+
+
+  </body>
+
+</html>

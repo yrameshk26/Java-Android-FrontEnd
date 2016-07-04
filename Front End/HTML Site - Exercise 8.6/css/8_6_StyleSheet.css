@@ -1,0 +1,23 @@
+/*Define the styles of output article*/
+#answers {
+		height: 50%;
+		width: 100%;
+		float: left;
+		text-align: center;
+		font-size: 60px;
+		}
+
+
+/*Define the styles of section which contains both Input forms*/
+#questions{
+			height: 50%;
+			width: 100%;
+			}
+
+
+/*Defines the styles of both input forms*/
+#extUser, #newUser {
+					width: 50%;
+					height: 100%;
+					float: left;
+					}

@@ -1,0 +1,344 @@
+* {
+  Box-sizing: Border-box;                                 /*Makes all the borders in to box shape*/
+}
+
+body {
+  background: #e0e0e0;
+  margin: 0;
+  padding: 0;                                  /*Sets Background Color*/
+}
+
+#navPage {                                                  /*Sets the Navigation Menu Page Properties*/
+  background: #e0e0e0;
+  background: url("../images/Vinayaha.jpg") 50% 0 no-repeat;  /*Sets the background image, position, repeating factor to none*/
+  background-size:cover;                                      /*Covers the whole page*/
+  height: 800px;                                              /*Covers the whole height*/
+  position: relative;                                         /*Sets the relative position*/
+  overflow: hidden;
+}
+
+#naviMenu {                                                 /*Sets the navigation menu properties*/
+  width:100%;
+  height:100%;
+  overflow: hidden;                                         /*Overflowed elements will be hidden*/
+  position: absolute;                                       /*Sets the absolute position*/
+}
+
+#IndexPortText {                                            /*Sets the first page Text Section Properties*/
+  width: 100%;
+  bottom: 1;
+  padding: 60px;
+  text-align: center;
+  color:white;
+  font-size:14px;
+  text-transform: uppercase;                                /*Transform the text to uppercase*/
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  letter-spacing: 30px;                                     /*Makes letter spacing to the text*/
+  transform:scale(1.1,1.5);
+  position: absolute;
+}
+
+#IndexFooter {                                              /*Sets the footer section properties*/
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color:whitesmoke;
+  font-size:10px;
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+  transform:scale(1.4,1.6);
+  }
+
+#menu {                                                     /*Defines the Initial Properties of the navigation Menu*/
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  /*border-radius: 500px;*/
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  list-style: none;
+  font-size: 100%;
+  transform:rotate(360deg);
+  transition:0.8s ease-in-out;
+  overflow: hidden;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+#menu:target {                                               /*Defines the Menu properties after clicked*/
+  width: 300px;
+  height: 300px;
+  margin: -150px 0 0 -150px;
+  transform:rotate(60deg);
+  border:1px solid #BCC6CC;
+  position: absolute;
+  opacity: 1;
+}
+
+.menu-button {                                               /* Defines the initial expand/hide button properties*/
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -75px 0 0 -75px;
+  background: #fff;
+  box-shadow: 0 0 0 5px #B6B6B4;                             /*Sets Box Shadow to Menu Buttons*/
+  border-radius: 500px;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.menu-button:target{                                          /*Defines Menu Button Properties after visited*/
+  opacity: 0.5;
+}
+
+#menu:not(:target) > a:first-of-type,                         /* The initial link stages where the parent element is menu button in not visited stage*/
+#menu:target > a:last-of-type {                               /*The Final link stages where the parent element is menu button in visited stage*/
+  opacity: 1;
+  z-index: 2;
+}
+
+.menu-item-back {                                              /*Sets all the menu items in common's properties - unvisited*/
+  background: linear-gradient(to bottom, rgba(131, 126, 124,1) 0%,rgba(182, 182, 180,1) 100%);
+  width: 175px;
+  height: 150px;
+  position: absolute;
+  transform-origin: 0px 150px;
+  margin-top: -150px;
+  left: 50%;
+  top: 50%;
+  opacity: 0.6;
+  border: 1px solid whitesmoke;
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,0.5);                 /*bottom internal shadow*/
+  inset 0 1px 1px rgba(255,255,255,1);
+}
+
+.menu-item-back:hover {                                         /*Sets all the menu items properties when hovering the mouse*/
+  background: #E5E4E2;
+  z-index: 1;
+  position: absolute;
+}
+
+.menu-item {                                                    /*Menu Item Properties before expansion*/
+  position: absolute;
+  text-decoration: none;
+  top: 50%;
+  left: 50%;
+  display: none;                                                /*Menu will be in hidden stage until expanded/clicked*/
+}
+
+.menu-item:before {                                             /*Menu Item Properties before expansion*/
+  color: #fff;
+  position: absolute;
+  text-decoration: none;
+  top: -12px;
+  left: 30px;
+  z-index: 1;
+}
+
+.menu-item {                                                    /*Change the display from in-line to block for all the menu items*/
+  display: block;
+  }
+
+
+.menu-item:nth-child(3) .menu-item-back {                      /*Skew and rotate the 3rd element to fit the circle  */
+  transform: rotate(0deg) skew(-30deg);
+}
+
+.menu-item:nth-child(3):before {                                /*Sets the icon inside and its properties in the menu item*/
+  margin: -64px 0 0 50px;
+  background-image:url('../images/Interests.png');
+  transform: rotate(-60deg);
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+  content: " ";
+}
+
+
+
+.menu-item:nth-child(4) .menu-item-back {                       /*Skew and rotate the 4th element to fit the circle  */
+  transform: rotate(60deg) skew(-30deg);
+}
+
+.menu-item:nth-child(4):before {                                 /*Sets the icon inside and its properties in the menu item*/
+  margin: 55px 0 0 50px;
+  background-image:url('../images/Contact.png');
+  transform: rotate(-60deg);
+  background-size: 35px 27px;
+  width: 35px;
+  height: 27px;
+  content: " ";
+}
+
+
+
+.menu-item:nth-child(5) .menu-item-back {                        /*Skew and rotate the 5th element to fit the circle  */
+  transform: rotate(120deg) skew(-30deg);
+}
+
+.menu-item:nth-child(5):before {                                 /*Sets the icon inside and its properties in the menu item*/
+  margin: 43px 0 0 -155px;
+  background-image:url('../images/Portfolio.png');
+  transform: rotate(-60deg);
+  background-size: 47px 47px;
+  width: 47px;
+  height: 47px;
+  content: " ";
+}
+
+
+.menu-item:nth-child(6) .menu-item-back {                        /*Skew and rotate the 6th element to fit the circle  */
+  transform: rotate(180deg) skew(-30deg);
+}
+
+.menu-item:nth-child(6):before {                                 /*Sets the icon inside and its properties in the menu item*/
+  margin: 113px 0 0 -49px;
+  background-image:url('../images/Skills.png');
+  transform: rotate(-60deg);
+  background-size: 30px 28px;
+  width: 30px;
+  height: 28px;
+  content: " ";
+  z-index: 0;
+}
+
+
+
+.menu-item:nth-child(7) .menu-item-back {                       /*Skew and rotate the 7th element to fit the circle  */
+  transform: rotate(240deg) skew(-30deg);
+}
+
+.menu-item:nth-child(7):before {                                 /*Sets the icon inside and its properties in the menu item*/
+  margin: -68px 0 0 -152px;
+  background-image:url('../images/Home.png');
+  transform: rotate(-60deg);
+  background-size: 40px 40px;
+  width: 40px;
+  height: 40px;
+  content: " ";
+}
+
+
+
+.menu-item:nth-child(8) .menu-item-back {                       /*Skew and rotate the 8th element to fit the circle  */
+  transform: rotate(300deg) skew(-30deg);
+}
+
+.menu-item:nth-child(8):before {                                 /*Set the icon inside and its properties in the menu item*/
+  margin: -123px 0 0 -52px;
+  background-image:url('../images/AboutMe.png');
+  transform: rotate(-60deg);
+  background-size: 30px 37px;
+  width: 30px;
+  height: 37px;
+  content: " ";
+
+}
+
+
+.icon-menu:before{                                               /*Set the icon inside the expansion menu and its intial properties*/
+  background-image:url('../images/Menu3.png');
+  margin: 10px 0 0 10px;
+  background-size: 130px 130px;
+  width: 130px;
+  height: 130px;
+  content: " ";
+  display: block;
+  opacity: 0.6;
+  transition: opacity 0.2s ease-in-out;
+  text-decoration: none;
+  z-index: 2;
+}
+
+
+.icon-minus:before{                                              /*Set the icon inside the hiding menu and its intial properties*/
+  background-image:url('../images/Minus2.png');
+  margin: 10px 0 0 10px;
+  transform: rotate(-60deg);
+  transition: opacity 0.2s ease-in-out;
+  text-decoration: none;
+  z-index: 2;
+  background-size: 130px 130px;
+  width: 130px;
+  height: 130px;
+  content: " ";
+  display: block;
+  opacity: 0.6;
+}
+
+
+
+
+#homePage{                                                      /*Assigns Home Page and Background*/
+  background: url(../images/Lights.jpg) 50% 0 no-repeat;
+  color: #e0e0e0;
+  height: 800px;
+  background-size: cover;
+
+}
+
+#aboutMePage{                                                   /*Assigns About Me Page and Background*/
+  background: url(../images/RainDrops.jpg) 50% 0 no-repeat;
+  color: #e0e0e0;
+  height: 800px;
+  background-size: cover;
+}
+
+#portfolioPage{                                                 /*Assigns Portfolio Page and Background*/
+  background: url(../images/CNView.jpg) 50% 0 no-repeat;
+  color: #e0e0e0;
+  height: 800px;
+  background-size: cover;
+}
+
+#interestsPage{                                                 /*Assigns Interests Page and Background*/
+  background: url(../images/Portraits.jpg) 50% 0 no-repeat;
+  height: 800px;
+  color: #e0e0e0;
+  background-size: cover;
+}
+
+#skillsPage{                                                    /*Assigns Skills Page and Background*/
+  background: url(../images/Lamb.jpg) 50% 0 no-repeat;
+  height: 800px;
+  color: #e0e0e0;
+  background-size: cover;
+}
+
+#contactMePage{                                                 /*Assigns Contact Me Page and Background*/
+  background: url(../images/TorontoBW.jpg) 50% 0 no-repeat;
+  height: 800px;
+  color: #e0e0e0;
+  background-size: cover;
+}
+
+
+#homePageA, #aboutMePageA, #portfolioPageA, #interestsPageA, #skillsPageA, #contactMePageA {   /*Sets temperory Coming Soon Text to all pages*/
+  font-size: 100px;
+  font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
+  text-align: center;
+  padding-top: 350px;
+  text-decoration: none;
+  color: #EBF4FA;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}

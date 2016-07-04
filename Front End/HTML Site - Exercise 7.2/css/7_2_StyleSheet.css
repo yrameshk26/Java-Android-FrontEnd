@@ -1,0 +1,46 @@
+* {padding:0px;
+margin:0px;
+text-align:center;}
+
+#top_nav {  width:90%;
+			margin:auto;}
+
+.top_nav{
+		float: right;
+		height:50px;
+		width:200px;
+		margin:3px;	 	
+		border-radius:20px;
+		font-family: Tahoma;
+		line-height:50px;
+		color:white;
+		box-shadow: 10px 10px 5px grey;
+		text-shadow:3px 3px black;
+		
+	}
+
+#home {
+background: linear-gradient(MediumVioletRed , Orchid  );
+}
+
+#products {
+	background: linear-gradient(to right, MediumVioletRed , Orchid  );
+}
+
+#services {
+	background: linear-gradient(to left, MediumVioletRed , Orchid  );
+}
+
+#contact {
+	background: linear-gradient(to left, MediumVioletRed , Orchid  );
+
+}
+
+#about {
+	background:repeating-linear-gradient(to right, MediumVioletRed, Purple 20%, Orchid 30%);
+}
+
+#home:hover{ width:500px;
+background:orange;
+transition: width 2s, background 2s;
+}

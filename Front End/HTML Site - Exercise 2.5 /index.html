@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head> 
+	    <meta charset=“UTF-8”> 						                                 	
+        <!—Defines the Character Set—> 
+        <title> My Webpage </title> 						                          	
+        <!—Defines the Tab Title Name—> 
+    </head>
+
+    
+    <body>
+
+     	<form action="datacollection.html" method="post"> 								                                                               
+            <!—Defines the Form—>  
+            <table border="5" Bordercolor="98AFC7" background="http://designscrazed.org/wp-content/uploads/2014/03/Crumpled-white-paper-texture.jpg">
+    	    <!—Defines the Table>    
+                <tr>
+                    <th colspan="2"><h1>Register Here !!!</h1></th>
+                    <!—Adds Heading for Table—> 
+                </tr>
+                
+                <tr>
+        	        <td><b>First Name:<b></td>
+                    <td><input type="text" name="firstname" Size="50" placeholder="Enter Your First Name" required></td>  
+                    <!-—Input Text Field—-> 
+                </tr>
+
+                <tr>
+                    <td><b>Last Name:<b></td>
+                    <td><input type="text" name="lastname" Size="50" placeholder="Enter Your Last Name" required></td>	
+                    <!—Input Text Field—> 
+                </tr>
+
+                <tr>
+                    <td><b>E-Mail:<b></td>
+                    <td><input type="email" name="Email" Size="50" placeholder="Enter Your Email"></td>                 
+                    <!—Input E-Mail Field—> 
+                </tr>
+
+                <tr>
+                    <td><b>Your Website/Linkedin:<b></td>
+                    <td><input type="url" name="URL" Size="50" placeholder="Enter Your Website"></td>           
+                    <!—Input URL Field—> 
+                </tr>
+
+                <tr>
+                    <td><b>Age:<b></td> 
+                    <td><input type="number" size="6" name="age" min="18" max="99"></td>
+                    <!—Input Number Field—> 
+                </tr>
+
+                <tr>
+                    <td><b>Rate Your<b><br><b>Computing Skills:<b></td> 
+                    <td><input type="range" size="2" name="satisfaction" min="1" max="5" value="3"></td>
+                    <!—Input Range Field—> 
+                </tr>
+
+    	        <tr>
+                    <td><b>Password:<b></td>
+                    <td><input type="password" name="" Size="50" placeholder="Enter Your Password" required></td> 
+                    <!—Input Password Field—>       
+                </tr>
+
+    	        <tr>
+                    <td><b>Gender:</b></td>              
+                    <td><input type="radio" name="gender" value="male" checked> Male <br>		                
+                    <!—Input Radio Button—> 
+                    <input type="radio" name="gender" value="female"> Female <br>                              
+                    <!—Input Radio Button—>
+                    <input type="radio" name="gender" value="other"> Other </td>	                            
+                    <!—Input Radio Button—> 
+                </tr>    
+
+                <tr>
+                    <td><b> Interests: </b></td>
+                    <td><input type="checkbox" name="Interests" value="Gaming"> Gaming <br>                
+                    <!—Input Checkbox-> 
+                    <input type="checkbox" name="Interests" value="Photography"> Photography   <br>              
+                    <!—Input Checkbox—> 
+                    <input type="checkbox" name="Interests" value="Social Networking"> Social Networking <br>   
+                    <!—Input Checkbox—>
+                    <input type="checkbox" name="Interests" value="Sports"> Sports     <br>                     
+                    <!—Input Checkbox—> 
+                    <input type="checkbox" name="Interests" value="Movies"> Movies</td>     <br>                
+                    <!—Input Checkbox—> 
+                </tr>
+
+                <tr>
+                    <td><b> Favourite Sport: <b></td>
+                    <td><select>                                                                                
+                    <!—Input Dropdown Menu> 
+                      <option value="Cricket">Cricket</option>
+                      <option value="Soccer">Soccer</option>
+                      <option value="Basket Ball">Basket Ball</option>
+                      <option value="Other">Other</option>
+                      <option value="Not Interested">Not Interested</option>
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td><b> About You: <b></td>
+                    <td><textarea rows="10" cols="75" Name = "About You" placeholder="Tell Us More About Yourself" ></textarea><br></td>  <!—Input Text Box Field—> 
+                </tr>
+
+                <tr>
+                    <th colspan="2"><input type="submit" value="Submit" ></th>                    
+                    <!—Input Submit Button—> 
+                </tr> 
+
+            </table>
+        </form>
+
+    </body>
+
+</html>

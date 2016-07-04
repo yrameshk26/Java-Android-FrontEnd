@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Lesson 8 EX 8.6</title>
+		<!-- Connects External Style Sheet -->
+		<link href="css/8_6_StyleSheet.css" rel="stylesheet" type="text/css">
+		<!-- Connects external javascript file -->
+		<script src="js/EX86.js"></script>
+	</head>
+
+	<body>   
+		<!-- This section has all the input forms -->
+		<section id="questions">
+			<!-- This form gets the New User Information -->
+			<form id="newUser" name = "newUser" method="post" onsubmit="signUpFunc(); return false;" action = "">
+				<table>
+					<tr><th colspan = "2"><h1>New User? <br>SIGN UP Here.</h1></th></tr>
+
+					<tr><td>1. Full Name : </td>
+					<td><input id="name" type="text" placeholder ="Full Name Here" required></input></td></tr>
+						
+					<tr><td>2. Date Of Birth : </td>
+					<td><input id="dob" type="date" placeholder ="MM/DD/YYYY" required></input></td></tr>
+
+					<tr><td>3. E-Mail : </td>
+					<td><input id="newEmail" type="email" placeholder ="Valid Email Address" required></input></td></tr>
+
+					<tr><td>4. Password : </td>
+					<td><input id="nwPW" type="password" placeholder ="Letters & Numbers Only" required></input></td></tr>
+
+					<tr><td>5. Retype Password : </td>
+					<td><input id="chkPW" type="password" placeholder ="Letters & Numbers Only" required></input></td></tr>
+
+					<tr><th colspan = "2"><br><input id ="signUpBtn" type="image" src="images/SignUp.png" alt="Submit" width="75" height="75"></input></th></tr>
+				</table>
+			</form>
+				
+			<!-- This form gets Login Credentials of Existing Users -->
+			<form id="extUser" name = "extUser" method="post" onsubmit="logInFunc(); return false;" action = "">
+				<table>
+					<tr><th colspan = "2"><h1>Existing User? <br>LOG IN Here.</h1></th></tr>
+				
+					<tr><td>1. E-Mail Address :&nbsp;</td>
+					<td><input id="extEmail" type="email" placeholder ="Your Email Address" required></input></td></tr>
+
+					<tr><td>2. Password:&nbsp;</td>
+					<td><input id="extPW" type="password" placeholder ="Your Password" required></input></td></tr>
+
+					<tr><th colspan = "2"><br><input id ="logInBtn" type="image" src="images/Login.png" alt="Submit" width="75" height="75"></input></th></tr>
+					</table>
+			</form>
+
+			<!-- This Article out puts the information from above form inputs -->
+			<article id="answers">
+					<h3 id="Output"></h3>
+			</article>
+
+	</body>
+
+
+</html>

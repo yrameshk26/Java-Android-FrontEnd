@@ -1,0 +1,37 @@
+        #container {
+                
+                display:flex;                       /*Defines flex layout*/
+                /* flex-wrap:wrap;*/                /*Defines the wrapping when shrinked all the child items will be wrapped*/
+                /*flex-direction:column; */         /*Defines the grow direction to colum (As all elements has grow property each element covers entire page)*/
+                /*flex-direction:column-reverse;*/  /*Defines the grow direction to column reverse*/
+                /*flex-direction:row-reverse;*/     /*Defines the grow direction to reverse row reverse (Default is row)*/
+                flex-flow:row wrap;                 /*Defines the flex direction and flex wrap in the same declaration*/
+
+                  }
+
+        .firstTwo {
+                
+                flex:2 1 100px;                     /*Defines all the flex attributes in one declaration*/
+                /*flex-basis:100px;                 /*Width starts from 100pixels*/
+                /*flex-shrink: 2;*/                 /*Shrinks the element twice the rate of the other (Default is 1)*/
+                /*flex-grow:1;*/                    /*Fit the rest of the available space by growing (Default is 0)*/
+                background: blue;
+                border:1px solid black;
+                color:white;
+                font-size:large;
+                text-align:center;
+                padding:20px 20px 20px 20px; 
+                margin: 4px; 
+            }
+        
+    
+         .lastTwo {
+                flex:1 1 100px;                     /*Defines all the flex attributes in one declaration*/
+                background: red;
+                border:1px solid black;
+                color:white;
+                font-size:large;
+                text-align:center;
+                padding:20px 20px 20px 20px; 
+                margin: 4px; 
+        }
