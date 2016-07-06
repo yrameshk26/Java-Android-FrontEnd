@@ -4,14 +4,12 @@
  * and open the template in the editor.
  */
 package javaapplication.loopy.planet.challenge.cmd.version;
-
 import java.util.Scanner; //Import scanner class
 /**
  *
  * @author Ramesh
  */
 public class JavaApplicationLoopyPlanetChallengeCMDVersion {
-
     /**
      * @param args the command line arguments
      */
@@ -23,8 +21,8 @@ public class JavaApplicationLoopyPlanetChallengeCMDVersion {
         System.out.println("        Menu of Planets       ");
         System.out.println("        ==== == =======       ");
         System.out.println("1.Jupiter   2.Mars   3.Mercury");
-        System.out.println("4.Neptune  5.Pluto  6.Saturn");
-        System.out.println("7.Uranus    8.Venus   9.<Quit>\n");
+        System.out.println("4.Neptune   5.Pluto  6.Saturn");
+        System.out.println("7.Uranus    8.Venus  9.<Quit>\n");
         //Calls the runOption Method to run the procedure
         runOption();
     }

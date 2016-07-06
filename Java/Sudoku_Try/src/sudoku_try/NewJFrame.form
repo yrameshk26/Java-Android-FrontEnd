@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="results" alignment="1" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="r2c1" min="-2" pref="49" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="r2c2" min="-2" pref="49" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="r2c3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="r2c4" min="-2" pref="49" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="r2c5" min="-2" pref="49" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="r2c6" min="-2" pref="49" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="r2c7" min="-2" pref="49" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="r2c8" min="-2" pref="49" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="r2c9" min="-2" pref="49" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="r3c1" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r3c2" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r3c3" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r3c4" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r3c5" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r3c6" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r3c7" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r3c8" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r3c9" min="-2" pref="49" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="r4c1" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r4c2" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r4c3" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r4c4" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r4c5" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r4c6" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r4c7" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r4c8" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r4c9" min="-2" pref="49" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="r6c1" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r6c2" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r6c3" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r6c4" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r6c5" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r6c6" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r6c7" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r6c8" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r6c9" min="-2" pref="49" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="r5c1" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r5c2" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r5c3" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r5c4" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r5c5" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r5c6" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r5c7" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r5c8" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="r5c9" min="-2" pref="49" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="r7c1" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r7c2" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r7c3" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r7c4" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r7c5" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r7c6" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r7c7" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r7c8" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r7c9" min="-2" pref="49" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="r8c1" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r8c2" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r8c3" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r8c4" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r8c5" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r8c6" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r8c7" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r8c8" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="r8c9" min="-2" pref="49" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="r9c1" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r9c2" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r9c3" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r9c4" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r9c5" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r9c6" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r9c7" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r9c8" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r9c9" min="-2" pref="49" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="r1c1" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r1c2" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r1c3" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r1c4" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r1c5" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r1c6" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r1c7" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r1c8" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="r1c9" min="-2" pref="49" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="209" max="-2" attributes="0"/>
+              <Component id="jButton2" min="-2" pref="178" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Component id="jButton2" min="-2" pref="60" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+              <Component id="results" min="-2" pref="47" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="r1c1" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r1c2" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r1c3" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r1c4" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r1c5" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r1c6" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r1c7" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r1c8" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r1c9" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="r2c1" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r2c2" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r2c3" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r2c4" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r2c5" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r2c6" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r2c7" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r2c8" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r2c9" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="r3c1" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r3c2" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r3c3" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r3c4" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r3c5" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r3c6" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r3c7" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r3c8" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r3c9" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="r4c1" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r4c2" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r4c3" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r4c4" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r4c5" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r4c6" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r4c7" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r4c8" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r4c9" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="r5c1" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r5c2" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r5c3" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r5c4" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r5c5" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r5c6" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r5c7" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r5c8" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r5c9" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="r6c1" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r6c2" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r6c3" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r6c4" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r6c5" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r6c6" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r6c7" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r6c8" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r6c9" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="r7c1" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r7c2" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r7c3" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r7c4" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r7c5" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r7c6" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r7c7" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r7c8" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r7c9" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="r8c1" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r8c2" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r8c3" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r8c4" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r8c5" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r8c6" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r8c7" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r8c8" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r8c9" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="r9c1" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r9c2" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r9c3" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r9c4" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r9c5" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r9c6" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r9c7" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r9c8" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="r9c9" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="r1c1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r1c1ActionPerformed"/>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="r1c1FocusLost"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="r1c1.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r1c3">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r1c3ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="r1c3.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r1c4.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r1c5.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r1c6.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r1c7.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r1c8.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r1c9.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;&#xa;r2c1.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r2c2.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r2c3.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r2c4.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r2c5.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r2c6.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r2c7.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r2c8.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r2c9.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;&#xa;r3c1.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r3c2.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r3c3.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r3c4.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r3c5.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r3c6.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r3c7.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r3c8.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r3c9.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;&#xa;r4c1.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c2.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c3.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c4.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c5.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c6.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c7.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c8.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c9.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;&#xa;r4c1.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c2.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c3.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c4.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c5.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c6.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c7.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c8.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r4c9.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;&#xa;r5c1.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r5c2.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r5c3.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r5c4.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r5c5.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r5c6.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r5c7.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r5c8.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r5c9.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;&#xa;r6c1.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r6c2.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r6c3.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r6c4.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r6c5.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r6c6.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r6c7.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r6c8.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r6c9.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;&#xa;r7c1.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r7c2.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r7c3.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r7c4.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r7c5.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r7c6.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r7c7.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r7c8.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r7c9.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;&#xa;r8c1.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r8c2.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r8c3.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r8c4.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r8c5.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r8c6.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r8c7.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r8c8.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r8c9.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;&#xa;r9c1.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r9c2.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r9c3.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r9c4.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r9c5.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r9c6.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r9c7.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r9c8.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));&#xa;r9c9.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r1c2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r1c2ActionPerformed"/>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="r1c2FocusLost"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="r1c2.setFont(new Font(&quot;Arial&quot;,Font.BOLD, 35));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r1c6">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r1c6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r1c4">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r1c4ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTextField()"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="r1c3.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r1c3FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r1c6.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r1c6FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r1c4.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r1c4FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r1c5.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r1c5FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r1c8.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r1c8FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r1c7.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r1c7FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r1c9.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r1c9FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r2c3.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r2c3FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r2c1.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r2c1FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r2c5.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r2c5FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r2c4.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r2c4FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r2c6.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r2c6FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r2c2.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r2c2FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r2c7.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r2c7FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r2c8.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r2c8FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r2c9.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r2c9FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r4c3.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r4c3FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r4c4.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r4c4FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r4c6.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r4c6FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r4c1.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r4c1FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r4c5.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r4c5FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r3c3.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r3c3FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r3c1.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r3c1FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r3c5.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r3c5FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r3c4.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r3c4FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r3c6.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r3c6FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r3c2.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r3c2FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r3c7.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r3c7FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r3c8.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r3c8FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r4c9.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r4c9FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r4c8.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r4c8FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r3c9.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r3c9FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r4c2.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r4c2FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r4c7.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r4c7FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r6c3.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r6c3FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r6c4.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r6c4FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r6c6.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r6c6FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r6c1.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r6c1FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r6c5.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r6c5FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r5c3.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r5c3FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r5c1.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r5c1FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r5c5.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r5c5FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r5c4.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r5c4FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r5c6.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r5c6FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r5c2.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r5c2FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r5c7.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r5c7FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r5c8.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r5c8FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r8c7.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r8c7FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r8c2.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r8c2FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r7c9.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r7c9FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r8c8.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r8c8FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r8c9.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r8c9FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r7c8.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r7c8FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r7c7.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r7c7FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r7c2.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r7c2FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r7c5.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r7c5FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r7c6.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r7c6FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r7c4.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r7c4FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r7c1.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r7c1FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r7c3.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r7c3FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r8c5.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r8c5FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r8c1.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r8c1FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r8c6.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r8c6FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r8c4.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r8c4FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r8c3.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r8c3FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r6c9.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r6c9FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r6c8.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r6c8FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r5c9.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r5c9FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r6c2.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r6c2FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r6c7.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r6c7FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r9c8.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r9c8FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r9c9.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r9c9FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r9c7.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r9c7FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r9c2.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r9c2FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r9c6.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r9c6FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r9c4.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r9c4FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r9c5.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r9c5FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r9c1.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r9c1FocusLost(evt);&#xa;            }&#xa;        });&#xa;&#xa;        r9c3.addFocusListener(new java.awt.event.FocusAdapter() {&#xa;            public void focusLost(java.awt.event.FocusEvent evt) {&#xa;                r9c3FocusLost(evt);&#xa;            }&#xa;        });"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r1c5">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r1c5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r1c8">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r1c8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r1c7">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r1c7ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r1c9">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r1c9ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r2c3">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r2c3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r2c1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r2c1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r2c5">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r2c5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r2c4">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r2c4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r2c6">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r2c6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r2c2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r2c2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r2c7">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r2c7ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r2c8">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r2c8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r2c9">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r2c9ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r4c3">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r4c3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r4c4">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r4c4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r4c6">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r4c6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r4c1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r4c1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r4c5">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r4c5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r3c3">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r3c3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r3c1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r3c1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r3c5">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r3c5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r3c4">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r3c4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r3c6">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r3c6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r3c2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r3c2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r3c7">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r3c7ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r3c8">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r3c8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r4c9">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r4c9ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r4c8">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r4c8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r3c9">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r3c9ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r4c2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r4c2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r4c7">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r4c7ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r6c3">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r6c3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r6c4">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r6c4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r6c6">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r6c6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r6c1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r6c1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r6c5">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r6c5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r5c3">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r5c3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r5c1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r5c1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r5c5">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r5c5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r5c4">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r5c4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r5c6">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r5c6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r5c2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r5c2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r5c7">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r5c7ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r5c8">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r5c8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r8c7">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r8c7ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r8c2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r8c2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r7c9">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r7c9ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r8c8">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r8c8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r8c9">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r8c9ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r7c8">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r7c8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r7c7">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r7c7ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r7c2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r7c2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r7c5">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r7c5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r7c6">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r7c6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r7c4">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r7c4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r7c1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r7c1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r7c3">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r7c3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r8c5">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r8c5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r8c1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r8c1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r8c6">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r8c6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r8c4">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r8c4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r8c3">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r8c3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r6c9">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r6c9ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r6c8">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r6c8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r5c9">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r5c9ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r6c2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r6c2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r6c7">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r6c7ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r9c8">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r9c8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r9c9">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r9c9ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r9c7">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r9c7ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r9c2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r9c2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r9c6">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r9c6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r9c4">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r9c4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r9c5">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r9c5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r9c1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r9c1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="r9c3">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="r9c3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="results">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="33" red="cc" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="results.setFont(new Font(&quot;Arial&quot;,Font.PLAIN, 35));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Submit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="Font buttonFont = jButton1.getFont();&#xa;jButton1.setFont(new Font(buttonFont.getName(), Font.PLAIN, 25));"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>

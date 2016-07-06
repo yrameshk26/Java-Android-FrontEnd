@@ -159,7 +159,9 @@ public class LoopyPlanetChallenge extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jLabel18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(37, 37, 37))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -379,7 +381,7 @@ public class LoopyPlanetChallenge extends javax.swing.JFrame {
         JOptionPane.YES_NO_OPTION);
 
     if (confirmed == JOptionPane.YES_OPTION) {
-      dispose();
+      System.exit(0);
     }
     }//GEN-LAST:event_jButton1MouseClicked
 
