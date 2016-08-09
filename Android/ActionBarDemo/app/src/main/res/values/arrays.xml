@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="actions">
+        <item> Action Bar Demo </item>
+        <item>Second Page</item>
+        <item>Third Page</item>
+        <item>Fourth Page</item>
+        <item>Fifth Page</item>
+    </string-array>
+</resources>

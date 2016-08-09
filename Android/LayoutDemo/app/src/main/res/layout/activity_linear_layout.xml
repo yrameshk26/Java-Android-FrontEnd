@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.layoutdemo.layoutdemo.LinearLayout"
+    android:weightSum="1">
+
+    <TextView
+        android:text="This is Linear Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_weight="0.03"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorControlActivated" />
+
+    <TextView
+        android:text="From :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0.03"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_weight="0.03"
+        android:hint="example@gmail.com"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:text="To :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_weight="0.03"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_weight="0.03"
+        android:hint="example@gmail.com"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:text="Message :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_weight="0.03"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_weight="0.8"
+        android:textAlignment="center"
+        android:hint="Your Message Goes Here."
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@android:color/white" />
+
+    <Button
+        android:text="Main Menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_below="@+id/textViewMM"
+        android:layout_alignLeft="@+id/btnLinearLayout"
+        android:layout_alignStart="@+id/btnLinearLayout"
+        android:layout_row="8"
+        android:layout_column="0"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_linear_layout"
+        tools:layout_editor_absoluteY="155dp"
+        android:layout_weight="0.03"
+        android:onClick="goToMainMenuLinear"/>
+</LinearLayout>
