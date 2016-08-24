@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setContentView(R.layout.activity_main);
         android.support.v7.app.ActionBar actionBar=getSupportActionBar();
         actionBar.setDisplayShowTitleEnabled(false);
-        //getActionBar().hide(); //This hides the Action Bar from the screen
+        actionBar.setDisplayShowHomeEnabled(true);
+        actionBar.setIcon(R.drawable.menu);
     }
 
     //Boolean demonstrates if the menu is active or not
@@ -59,9 +59,9 @@ public class MainActivity extends AppCompatActivity {
                 showAlertDialog("Search", "Search activity is under progress");
                 return true;
 
-            case R.id.menu:
-                Toast.makeText(getApplicationContext(), "Menu Icon not Assigned Yet", Toast.LENGTH_SHORT).show();
-                return true;
+//            case R.id.menu:
+//                Toast.makeText(getApplicationContext(), "Menu Icon not Assigned Yet", Toast.LENGTH_SHORT).show();
+//                return true;
 
             default:
                 return super.onOptionsItemSelected(item);
