@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_new_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yrameshk.locationbasedreminder.CreateNew_Activity">
+
+    <TextView
+        android:text="Create New Reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CreateHeading"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="28dp"
+        android:fontFamily="casual"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/NameEditText"
+        android:textSize="14sp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:layout_below="@+id/NameText"
+        android:layout_alignLeft="@+id/NameText"
+        android:layout_alignStart="@+id/NameText"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignRight="@+id/EditHeading"
+        android:layout_alignEnd="@+id/EditHeading"
+        android:hint="Reminder Name" />
+
+    <TextView
+        android:text="Repeating Times: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TimesText"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/NameEditText"
+        android:layout_alignLeft="@+id/NameText"
+        android:layout_alignStart="@+id/NameText" />
+
+    <TextView
+        android:text="Repeat: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RepeatText"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/TimesRadio"
+        android:layout_alignLeft="@+id/TimesText"
+        android:layout_alignStart="@+id/TimesText" />
+
+    <CheckBox
+        android:text="Sat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SatCheck"
+        android:layout_alignBaseline="@+id/FriCheck"
+        android:layout_alignBottom="@+id/FriCheck"
+        android:layout_alignLeft="@+id/TueCheck"
+        android:layout_alignStart="@+id/TueCheck" />
+
+    <CheckBox
+        android:text="Sun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SunCheck"
+        android:layout_alignBaseline="@+id/SatCheck"
+        android:layout_alignBottom="@+id/SatCheck"
+        android:layout_alignLeft="@+id/WedCheck"
+        android:layout_alignStart="@+id/WedCheck" />
+
+    <CheckBox
+        android:text="Times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TimesCheck"
+        android:layout_alignBaseline="@+id/SunCheck"
+        android:layout_alignBottom="@+id/SunCheck"
+        android:layout_alignLeft="@+id/ThuCheck"
+        android:layout_alignStart="@+id/ThuCheck" />
+
+    <RadioGroup
+        android:id="@+id/TimesRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/TimesText"
+        android:layout_alignLeft="@+id/NameEditText"
+        android:layout_alignStart="@+id/NameEditText">
+
+        <RadioButton
+            android:text="Once"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/onceRadio"
+            android:checked="false"/>
+
+        <RadioButton
+            android:text="Multiple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/multipleRadio"
+            android:checked="false" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:text="Tue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TueCheck"
+        android:layout_alignBaseline="@+id/MonCheck"
+        android:layout_alignBottom="@+id/MonCheck"
+        android:layout_toRightOf="@+id/MonCheck"
+        android:layout_toEndOf="@+id/MonCheck" />
+
+    <CheckBox
+        android:text="Wed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/WedCheck"
+        android:layout_alignBaseline="@+id/TueCheck"
+        android:layout_alignBottom="@+id/TueCheck"
+        android:layout_toRightOf="@+id/TueCheck"
+        android:layout_toEndOf="@+id/TueCheck" />
+
+    <CheckBox
+        android:text="Thu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ThuCheck"
+        android:layout_alignBaseline="@+id/WedCheck"
+        android:layout_alignBottom="@+id/WedCheck"
+        android:layout_toRightOf="@+id/WedCheck"
+        android:layout_toEndOf="@+id/WedCheck" />
+
+    <CheckBox
+        android:text="Fri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FriCheck"
+        android:layout_below="@+id/MonCheck"
+        android:layout_alignLeft="@+id/MonCheck"
+        android:layout_alignStart="@+id/MonCheck" />
+
+    <TextView
+        android:text="Location (Choose): "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LocationText"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/SatCheck"
+        android:layout_alignRight="@+id/SatCheck"
+        android:layout_alignEnd="@+id/SatCheck" />
+
+    <TextView
+        android:text="Reminder Name: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/NameText"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/CreateHeading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/LocationText"
+        android:layout_above="@+id/CreateBtn">
+
+        <fragment
+            android:id="@+id/place_autocomplete_fragment_create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment" />
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:id="@+id/map" />
+    </LinearLayout>
+
+    <CheckBox
+        android:text="Mon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MonCheck"
+        android:layout_below="@+id/RepeatText"
+        android:layout_alignLeft="@+id/TimesRadio"
+        android:layout_alignStart="@+id/TimesRadio" />
+
+    <Button
+        android:text="Create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CreateBtn"
+        android:onClick="createReminder"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <NumberPicker
+        android:id="@+id/numberPicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/TimesCheck"
+        android:layout_below="@+id/TimesText"/>
+
+</RelativeLayout>

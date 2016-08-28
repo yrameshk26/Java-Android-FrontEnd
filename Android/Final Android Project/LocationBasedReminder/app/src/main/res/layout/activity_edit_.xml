@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yrameshk.locationbasedreminder.CreateNew_Activity">
+
+    <TextView
+        android:text="Edit Reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditHeading"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="28dp"
+        android:fontFamily="casual"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/NameEditTextEdit"
+        android:textSize="14sp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:layout_below="@+id/NameTextEdit"
+        android:layout_alignLeft="@+id/NameTextEdit"
+        android:layout_alignStart="@+id/NameTextEdit"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignRight="@+id/EditHeading"
+        android:layout_alignEnd="@+id/EditHeading"
+        android:hint="Reminder Name" />
+
+    <TextView
+        android:text="Repeating Times: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TimesTextEdit"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/NameEditTextEdit"
+        android:layout_alignLeft="@+id/NameTextEdit"
+        android:layout_alignStart="@+id/NameTextEdit" />
+
+    <CheckBox
+        android:text="Sat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SatCheckEdit"
+        android:layout_alignBaseline="@+id/FriCheckEdit"
+        android:layout_alignBottom="@+id/FriCheckEdit"
+        android:layout_alignLeft="@+id/TueCheckEdit"
+        android:layout_alignStart="@+id/TueCheckEdit" />
+
+    <CheckBox
+        android:text="Sun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SunCheckEdit"
+        android:layout_alignBaseline="@+id/SatCheckEdit"
+        android:layout_alignBottom="@+id/SatCheckEdit"
+        android:layout_alignLeft="@+id/WedCheckEdit"
+        android:layout_alignStart="@+id/WedCheckEdit" />
+
+    <CheckBox
+        android:text="Times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TimesCheckEdit"
+        android:layout_alignBaseline="@+id/SunCheckEdit"
+        android:layout_alignBottom="@+id/SunCheckEdit"
+        android:layout_alignLeft="@+id/ThuCheckEdit"
+        android:layout_alignStart="@+id/ThuCheckEdit" />
+
+    <RadioGroup
+        android:id="@+id/TimesRadioEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/TimesTextEdit"
+        android:layout_alignLeft="@+id/NameEditTextEdit"
+        android:layout_alignStart="@+id/NameEditTextEdit">
+
+        <RadioButton
+            android:text="Once"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/onceRadioEdit"
+            android:checked="false"/>
+
+        <RadioButton
+            android:text="Multiple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/multipleRadioEdit"
+            android:checked="false" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:text="Tue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TueCheckEdit"
+        android:layout_alignBaseline="@+id/MonCheckEdit"
+        android:layout_alignBottom="@+id/MonCheckEdit"
+        android:layout_toRightOf="@+id/MonCheckEdit"
+        android:layout_toEndOf="@+id/MonCheckEdit" />
+
+    <CheckBox
+        android:text="Wed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/WedCheckEdit"
+        android:layout_alignBaseline="@+id/TueCheckEdit"
+        android:layout_alignBottom="@+id/TueCheckEdit"
+        android:layout_toRightOf="@+id/TueCheckEdit"
+        android:layout_toEndOf="@+id/TueCheckEdit" />
+
+    <CheckBox
+        android:text="Thu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ThuCheckEdit"
+        android:layout_alignBaseline="@+id/WedCheckEdit"
+        android:layout_alignBottom="@+id/WedCheckEdit"
+        android:layout_toRightOf="@+id/WedCheckEdit"
+        android:layout_toEndOf="@+id/WedCheckEdit" />
+
+    <CheckBox
+        android:text="Fri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FriCheckEdit"
+        android:layout_below="@+id/MonCheckEdit"
+        android:layout_alignLeft="@+id/MonCheckEdit"
+        android:layout_alignStart="@+id/MonCheckEdit" />
+
+    <TextView
+        android:text="Location (Choose): "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LocationTextEdit"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/SatCheckEdit"
+        android:layout_alignRight="@+id/SatCheckEdit"
+        android:layout_alignEnd="@+id/SatCheckEdit" />
+
+    <CheckBox
+        android:text="Mon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MonCheckEdit"
+        android:layout_below="@+id/RepeatTextEdit"
+        android:layout_alignLeft="@+id/NameEditTextEdit"
+        android:layout_alignStart="@+id/NameEditTextEdit" />
+
+    <TextView
+        android:text="Reminder Name: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:id="@+id/NameTextEdit"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+    android:textStyle="normal|bold"
+        android:layout_below="@+id/EditHeading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Repeat: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RepeatTextEdit"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/TimesRadioEdit"
+        android:layout_alignLeft="@+id/TimesTextEdit"
+        android:layout_alignStart="@+id/TimesTextEdit" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Edit"
+        android:id="@+id/EditReminderBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="EditReminder"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/LocationTextEdit"
+        android:layout_above="@+id/EditReminderBtn">
+
+        <fragment
+            android:id="@+id/place_autocomplete_fragment_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment" />
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:id="@+id/mapEdit" />
+    </LinearLayout>
+
+    <NumberPicker
+        android:id="@+id/numberPickerEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/TimesCheckEdit"
+        android:layout_below="@+id/TimesTextEdit"/>
+
+</RelativeLayout>

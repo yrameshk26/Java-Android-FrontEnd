@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_all__menu_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.yrameshk.locationbasedreminder.All_Menu_Activity">
+
+    <Button
+        android:text="Create New Reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:onClick="goToCreateNew"
+        android:id="@+id/CreateNewReminderBtn" />
+
+    <Button
+        android:text="Exit App"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="ExitApp"
+        android:id="@+id/ExitBtn" />
+
+    <Button
+        android:text="Edit/Delete Previous Reminders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditDeleteBtn"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="goToEditDelete"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="View All Reminders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ViewAllReminder"
+        android:layout_above="@+id/EditDeleteBtn"
+        android:layout_centerHorizontal="true"
+        android:onClick="goToViewAll"
+        android:layout_marginBottom="34dp" />
+</RelativeLayout>
